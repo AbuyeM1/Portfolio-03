@@ -1,0 +1,16 @@
+body {
+  background-image: url(./Assets/images/backgroundcopy.png) !important;
+}
+.container {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn {
+  background-color: blue;
+}
+#resume-btn {
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+}
