@@ -5,6 +5,8 @@ body {
   background-color: white;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: auto;
+  margin: auto;
 }
 .btn {
   background-color: blue;
@@ -37,4 +39,36 @@ body {
 }
 btn-primary {
   border: 2px solid #ff0000;
+}
+#content {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #66ffff;
+}
+.footer {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 640px) {
+  h1 {
+    float: none;
+    margin: auto;
+    text-align: center;
+    border-style: none;
+  }
+
+  a {
+    top: 0px;
+    margin: auto;
+  }
+
+  nav {
+    float: none;
+    margin-right: 0px;
+  }
+}
+.textStyle {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 180%;
 }
